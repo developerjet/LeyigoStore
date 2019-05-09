@@ -1,0 +1,38 @@
+# Uncomment the next line to define a global platform for your project
+  platform :ios, '9.0'
+  inhibit_all_warnings! #消除警告
+
+target 'FSFurnitureStore' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+	pod 'AFNetworking', '~> 3.2.1'
+	pod 'SDWebImage', '~> 4.3.2'
+	pod 'MJExtension', '~> 3.0.13'
+	pod 'MJRefresh', '~> 3.1.15.3'
+	pod 'MBProgressHUD', '~> 1.1.0'
+	pod 'DZNEmptyDataSet', '~> 1.8.1'
+	pod 'JXCategoryView', '~> 1.1.0'
+	pod 'TZImagePickerController', '~> 3.0.9'
+	pod 'SDCycleScrollView', '~> 1.75'
+	pod 'FDFullscreenPopGesture'
+	pod 'Masonry', '~> 1.1.0'
+	pod 'LEEAlert', '~> 1.2.1'
+	pod 'JPush'
+    
+    # U-Share SDK UI模块（分享面板，建议添加）
+    pod 'UMCShare/UI'
+    # 集成微信(精简版0.2M)
+    pod 'UMCShare/Social/ReducedWeChat'
+    # 集成微信(完整版14.4M)
+    pod 'UMCShare/Social/WeChat'
+    # 集成QQ/QZone/TIM(精简版0.5M)
+    pod 'UMCShare/Social/ReducedQQ'
+    # 集成QQ/QZone/TIM(完整版7.6M)
+    pod 'UMCShare/Social/QQ'
+    # 集成新浪微博(精简版1M)
+    pod 'UMCShare/Social/ReducedSina'
+    # 集成新浪微博(完整版25.3M)
+    pod 'UMCShare/Social/Sina'
+
+end

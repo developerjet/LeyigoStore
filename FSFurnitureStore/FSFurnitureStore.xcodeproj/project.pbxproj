@@ -1,0 +1,1672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E2D2781229DDC18B2835F5 /* libPods-FSFurnitureStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC33C5A0E41DFECBF379804 /* libPods-FSFurnitureStore.a */; };
+		2701D08C21B1A47400294A0D /* FSStoreConcentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2701D08A21B1A47400294A0D /* FSStoreConcentController.m */; };
+		2701D09021B1A4C900294A0D /* FSStoreProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2701D08F21B1A4C900294A0D /* FSStoreProductController.m */; };
+		2701D09321B1A50F00294A0D /* FSStoreContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2701D09221B1A50F00294A0D /* FSStoreContactController.m */; };
+		270EAC9221AF0BAD000E0B27 /* FSMeInfoHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 270EAC9121AF0BAD000E0B27 /* FSMeInfoHeaderView.m */; };
+		271018C521AD82B000887421 /* FSClassifySearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 271018C421AD82B000887421 /* FSClassifySearchBar.m */; };
+		2711E24921AC55A200F22E0E /* FSRegisterBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2711E24821AC55A200F22E0E /* FSRegisterBottomView.m */; };
+		271B6C4F21B82755000EBFF9 /* FSMeInfoUpdateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271B6C4E21B82755000EBFF9 /* FSMeInfoUpdateController.m */; };
+		271DABC921AE91CD0034FED0 /* FSClassProductListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271DABC821AE91CD0034FED0 /* FSClassProductListController.m */; };
+		271DABCC21AE976F0034FED0 /* FSProductSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271DABCB21AE976F0034FED0 /* FSProductSearchController.m */; };
+		271DABD021AE9E260034FED0 /* FSProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271DABCE21AE9E260034FED0 /* FSProductDetailViewController.m */; };
+		271DABD121AE9E260034FED0 /* FSProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271DABCF21AE9E260034FED0 /* FSProductDetailViewController.xib */; };
+		27302CFE21ABE612004BFD7F /* FSOptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27302CFD21ABE612004BFD7F /* FSOptionTableViewCell.m */; };
+		27302D0121ABEBDE004BFD7F /* FSProductTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27302D0021ABEBDE004BFD7F /* FSProductTableViewCell.m */; };
+		27302D0521AC166E004BFD7F /* FSNewOptionBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27302D0421AC166E004BFD7F /* FSNewOptionBaseController.m */; };
+		27302D0921AC1A94004BFD7F /* FSNewOptionContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27302D0721AC1A94004BFD7F /* FSNewOptionContentCell.m */; };
+		27302D0A21AC1A94004BFD7F /* FSNewOptionContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27302D0821AC1A94004BFD7F /* FSNewOptionContentCell.xib */; };
+		27302D0D21AC1C96004BFD7F /* FSNewOptionClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 27302D0C21AC1C96004BFD7F /* FSNewOptionClass.m */; };
+		27302D1021AC1F99004BFD7F /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 27302D0F21AC1F99004BFD7F /* NSObject+Additions.m */; };
+		2734D88F21B5272D00B2E9E9 /* FSStoreContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2734D88D21B5272D00B2E9E9 /* FSStoreContactCell.m */; };
+		2734D89021B5272D00B2E9E9 /* FSStoreContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2734D88E21B5272D00B2E9E9 /* FSStoreContactCell.xib */; };
+		273B4AB821AC65AF00F8628A /* NSString+Estend.m in Sources */ = {isa = PBXBuildFile; fileRef = 273B4AB721AC65AF00F8628A /* NSString+Estend.m */; };
+		2745724B21AFCF5400C42218 /* FSSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2745724A21AFCF5400C42218 /* FSSettingsViewController.m */; };
+		2747492621AF04E300574C35 /* FSMeInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747492421AF04E300574C35 /* FSMeInfoTableViewCell.m */; };
+		2747492721AF04E300574C35 /* FSMeInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2747492521AF04E300574C35 /* FSMeInfoTableViewCell.xib */; };
+		2748F65521AEAC6900B72655 /* FSProductClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748F65421AEAC6900B72655 /* FSProductClass.m */; };
+		2748F65821AEACA600B72655 /* FSPhotoString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748F65621AEACA600B72655 /* FSPhotoString.m */; };
+		2748F65C21AEB46400B72655 /* FSWaitingOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748F65A21AEB46400B72655 /* FSWaitingOrderViewController.m */; };
+		2748F65D21AEB46400B72655 /* FSWaitingOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2748F65B21AEB46400B72655 /* FSWaitingOrderViewController.xib */; };
+		2748F66221AEC67D00B72655 /* FSMeShoppingCartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748F66021AEC67D00B72655 /* FSMeShoppingCartController.m */; };
+		2748F66321AEC67D00B72655 /* FSMeShoppingCartController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2748F66121AEC67D00B72655 /* FSMeShoppingCartController.xib */; };
+		2748F66621AEE1B500B72655 /* FSShopCartList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748F66521AEE1B500B72655 /* FSShopCartList.m */; };
+		2748F66921AEE2C100B72655 /* FSShopCartClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748F66821AEE2C100B72655 /* FSShopCartClass.m */; };
+		274D284621B9407B00E5F544 /* FSAddressAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274D284521B9407B00E5F544 /* FSAddressAddViewController.m */; };
+		2754133B21B02C660020C158 /* FSStorePartner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2754133A21B02C660020C158 /* FSStorePartner.m */; };
+		2754133E21B02C750020C158 /* FSStoreSubclas.m in Sources */ = {isa = PBXBuildFile; fileRef = 2754133C21B02C750020C158 /* FSStoreSubclas.m */; };
+		2754134321B02E1F0020C158 /* FSStoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2754134121B02E1F0020C158 /* FSStoreTableViewCell.m */; };
+		2754134421B02E1F0020C158 /* FSStoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2754134221B02E1F0020C158 /* FSStoreTableViewCell.xib */; };
+		27620DBC21C625740034D280 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 27620DB821C625740034D280 /* Base64.m */; };
+		27620DBD21C625740034D280 /* BasicCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 27620DBA21C625740034D280 /* BasicCommonUtils.m */; };
+		27620DBE21C625740034D280 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 27620DBB21C625740034D280 /* GTMBase64.m */; };
+		27620DC121C62F770034D280 /* FSUploadConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 27620DC021C62F770034D280 /* FSUploadConfig.m */; };
+		2762E8F221AACA9B001BD218 /* FSAppDelegate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2762E8F121AACA9B001BD218 /* FSAppDelegate+Utils.m */; };
+		2762E8F721AAE06C001BD218 /* FSRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2762E8F621AAE06C001BD218 /* FSRequestManager.m */; };
+		2762E8FA21AAE2EA001BD218 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2762E8F821AAE2EA001BD218 /* UIImageView+SDWebImage.m */; };
+		2762E90221AAE92D001BD218 /* FSHomeSubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2762E8FC21AAE92D001BD218 /* FSHomeSubClass.m */; };
+		2762E90321AAE92D001BD218 /* FSHomeJsonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2762E8FF21AAE92D001BD218 /* FSHomeJsonClass.m */; };
+		2762E90821AAEBBF001BD218 /* FSHomeBannerHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2762E90621AAEBBF001BD218 /* FSHomeBannerHeader.m */; };
+		2762E90C21AAEBF6001BD218 /* FSSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2762E90B21AAEBF6001BD218 /* FSSectionHeaderView.m */; };
+		27692DF421B437E10020CDA7 /* FSOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27692DF321B437E10020CDA7 /* FSOrderListViewController.m */; };
+		27692DF921B43C630020CDA7 /* FSOrderContentInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27692DF721B43C630020CDA7 /* FSOrderContentInfoCell.m */; };
+		27692DFA21B43C630020CDA7 /* FSOrderContentInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27692DF821B43C630020CDA7 /* FSOrderContentInfoCell.xib */; };
+		2775FE7B21AFD0F700867242 /* FSSettingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2775FE7921AFD0F700867242 /* FSSettingsTableViewCell.m */; };
+		2775FE7C21AFD0F700867242 /* FSSettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2775FE7A21AFD0F700867242 /* FSSettingsTableViewCell.xib */; };
+		2785B54C21B56B54001762EA /* FSAddressManagerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2785B54A21B56B54001762EA /* FSAddressManagerCell.m */; };
+		2785B54D21B56B54001762EA /* FSAddressManagerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2785B54B21B56B54001762EA /* FSAddressManagerCell.xib */; };
+		2785BBFD21AD4E740016BDA8 /* FSLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2785BBFC21AD4E740016BDA8 /* FSLoginManager.m */; };
+		2785BC0221AD565F0016BDA8 /* FSConfigInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2785BC0121AD565F0016BDA8 /* FSConfigInputView.m */; };
+		2797DB5521B8EFA100180B7C /* FSProductCommentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2797DB5421B8EFA100180B7C /* FSProductCommentController.m */; };
+		2798654221AEEB8C00622E17 /* FSShoppingCartInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2798654021AEEB8C00622E17 /* FSShoppingCartInfoCell.m */; };
+		2798654321AEEB8C00622E17 /* FSShoppingCartInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2798654121AEEB8C00622E17 /* FSShoppingCartInfoCell.xib */; };
+		279AC0DA21B55BED004E226A /* FSProductCollectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279AC0D821B55BED004E226A /* FSProductCollectController.m */; };
+		279AC0DF21B560CC004E226A /* FSAddressManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279AC0DD21B560CC004E226A /* FSAddressManagerController.m */; };
+		279DD42421BA905B003009AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 279DD42621BA905B003009AF /* InfoPlist.strings */; };
+		27AD220821AC3AF800C86861 /* FSOptionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AD220621AC3AF800C86861 /* FSOptionDetailViewController.m */; };
+		27AD220921AC3AF800C86861 /* FSOptionDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AD220721AC3AF800C86861 /* FSOptionDetailViewController.xib */; };
+		27AD220C21AC452F00C86861 /* FSCommentBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AD220B21AC452F00C86861 /* FSCommentBaseController.m */; };
+		27AD221021AC45AD00C86861 /* FSCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AD220E21AC45AD00C86861 /* FSCommentTableViewCell.m */; };
+		27AD221121AC45AD00C86861 /* FSCommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AD220F21AC45AD00C86861 /* FSCommentTableViewCell.xib */; };
+		27AD221721AC4DD300C86861 /* FSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AD221621AC4DD300C86861 /* FSLoginViewController.m */; };
+		27AD221A21AC4E5D00C86861 /* FSLogRegistConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AD221921AC4E5D00C86861 /* FSLogRegistConfig.m */; };
+		27AF050721B0458800962B3B /* FSStoreDetailBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF050621B0458800962B3B /* FSStoreDetailBaseController.m */; };
+		27AF050A21B05DCD00962B3B /* FSStoreInfoHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF050921B05DCD00962B3B /* FSStoreInfoHeader.m */; };
+		27B0022521B543200003C3DC /* FSStoreCollectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B0022421B543200003C3DC /* FSStoreCollectViewController.m */; };
+		27B0022A21B553410003C3DC /* FSStoreCollectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B0022821B553410003C3DC /* FSStoreCollectCell.m */; };
+		27B0022B21B553410003C3DC /* FSStoreCollectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B0022921B553410003C3DC /* FSStoreCollectCell.xib */; };
+		27B08E3921B2AEA400CCE3B7 /* FSSettlementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B08E3721B2AEA400CCE3B7 /* FSSettlementViewController.m */; };
+		27B08E3A21B2AEA400CCE3B7 /* FSSettlementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B08E3821B2AEA400CCE3B7 /* FSSettlementViewController.xib */; };
+		27B08E3D21B2CC3900CCE3B7 /* FSRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B08E3C21B2CC3900CCE3B7 /* FSRegisterViewController.m */; };
+		27B365CD21AAC1B7004A4627 /* FSBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B365CC21AAC1B7004A4627 /* FSBaseModel.m */; };
+		27B365D021AAC643004A4627 /* FSBaseBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B365CE21AAC643004A4627 /* FSBaseBrowserViewController.m */; };
+		27B365D821AAC755004A4627 /* FSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B365D221AAC755004A4627 /* FSProgressHUD.m */; };
+		27B365D921AAC755004A4627 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 27B365D421AAC755004A4627 /* MBProgressHUD.bundle */; };
+		27B365DA21AAC755004A4627 /* FSCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B365D721AAC755004A4627 /* FSCacheManager.m */; };
+		27BA9D4C21A8213200F3A248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27BA9D4B21A8213200F3A248 /* Assets.xcassets */; };
+		27BA9D5221A8213200F3A248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BA9D5121A8213200F3A248 /* main.m */; };
+		27BA9D5C21A8213200F3A248 /* FSFurnitureStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BA9D5B21A8213200F3A248 /* FSFurnitureStoreTests.m */; };
+		27BA9D6721A8213200F3A248 /* FSFurnitureStoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BA9D6621A8213200F3A248 /* FSFurnitureStoreUITests.m */; };
+		27BA9D8121A8372700F3A248 /* FSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BA9D7A21A8372600F3A248 /* FSAppDelegate.m */; };
+		27BA9D9921A838A100F3A248 /* FSBaseConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BA9D9821A838A100F3A248 /* FSBaseConfigViewController.m */; };
+		27BA9D9C21A83A9400F3A248 /* FSNavDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BA9D9B21A83A9400F3A248 /* FSNavDisplayViewController.m */; };
+		27BBC12521A955D300124EDE /* FSBaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BBC12421A955D300124EDE /* FSBaseTabBarViewController.m */; };
+		27BBC12821A9561100124EDE /* FSBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BBC12721A9561100124EDE /* FSBaseNavigationController.m */; };
+		27BBC13521A95D8600124EDE /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BBC12A21A95D8600124EDE /* UIView+Extension.m */; };
+		27BBC13621A95D8600124EDE /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BBC12C21A95D8600124EDE /* UIBarButtonItem+Item.m */; };
+		27BBC13721A95D8600124EDE /* UIButton+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BBC13121A95D8600124EDE /* UIButton+Extend.m */; };
+		27BBC13821A95D8600124EDE /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BBC13221A95D8600124EDE /* UIImage+Extension.m */; };
+		27BBC13921A95D8600124EDE /* UIWindow+YXSafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BBC13321A95D8600124EDE /* UIWindow+YXSafeArea.m */; };
+		27BBC13A21A95D8600124EDE /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BBC13421A95D8600124EDE /* UIColor+Extension.m */; };
+		27BBC13D21A99E8900124EDE /* FSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BBC13C21A99E8900124EDE /* FSHomeViewController.m */; };
+		27BBC14021A99E9F00124EDE /* FSClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BBC13F21A99E9F00124EDE /* FSClassifyViewController.m */; };
+		27BBC14321A99EBF00124EDE /* FSStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BBC14221A99EBF00124EDE /* FSStoreViewController.m */; };
+		27BBC14621A99ED400124EDE /* FSMeInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BBC14521A99ED400124EDE /* FSMeInfoViewController.m */; };
+		27C2327121B81E7600509BCB /* FSAboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C2326F21B81E7600509BCB /* FSAboutMeViewController.m */; };
+		27C2327221B81E7600509BCB /* FSAboutMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C2327021B81E7600509BCB /* FSAboutMeViewController.xib */; };
+		27D1039021AC516B00B83516 /* FSLogInRegisterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D1038E21AC516B00B83516 /* FSLogInRegisterCell.m */; };
+		27D1039121AC516B00B83516 /* FSLogInRegisterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D1038F21AC516B00B83516 /* FSLogInRegisterCell.xib */; };
+		27E0057021B0374E005FFDC4 /* FSStoreProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E0056E21B0374E005FFDC4 /* FSStoreProductCell.m */; };
+		27E0057121B0374E005FFDC4 /* FSStoreProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E0056F21B0374E005FFDC4 /* FSStoreProductCell.xib */; };
+		27E22D5E21AD981300B35A65 /* FSClassifyRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E22D5D21AD981300B35A65 /* FSClassifyRoot.m */; };
+		27E22D6821AD994800B35A65 /* FSClassifyColectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E22D6621AD994800B35A65 /* FSClassifyColectCell.m */; };
+		27E22D6921AD994800B35A65 /* FSClassifyColectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E22D6721AD994800B35A65 /* FSClassifyColectCell.xib */; };
+		27E22D6E21AD9ED400B35A65 /* FSClassProductResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E22D6C21AD9ED400B35A65 /* FSClassProductResultController.m */; };
+		27E22D7321ADA67400B35A65 /* FSClassifyProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E22D7121ADA67400B35A65 /* FSClassifyProductCell.m */; };
+		27E22D7421ADA67400B35A65 /* FSClassifyProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E22D7221ADA67400B35A65 /* FSClassifyProductCell.xib */; };
+		27E4016921B4469F001F7539 /* FSOrderInfoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E4016821B4469F001F7539 /* FSOrderInfoList.m */; };
+		27EF72C321ABC21B0003DE81 /* FSPartnerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF72C221ABC21B0003DE81 /* FSPartnerTableViewCell.m */; };
+		27EF72C621ABC49F0003DE81 /* FSPartnerCollectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF72C521ABC49F0003DE81 /* FSPartnerCollectCell.m */; };
+		27EF72CA21ABD73C0003DE81 /* FSCenterAdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF72C821ABD73C0003DE81 /* FSCenterAdTableViewCell.m */; };
+		27EF72CB21ABD73C0003DE81 /* FSCenterAdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27EF72C921ABD73C0003DE81 /* FSCenterAdTableViewCell.xib */; };
+		27F2329F21AD69AE006CD3CB /* FSNewOptionListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F2329E21AD69AE006CD3CB /* FSNewOptionListController.m */; };
+		27F2DF3F21AD63EC00FF6803 /* FSHttpResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F2DF3E21AD63EC00FF6803 /* FSHttpResult.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27BA9D5821A8213200F3A248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27BA9D3721A8213100F3A248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27BA9D3E21A8213100F3A248;
+			remoteInfo = FSFurnitureStore;
+		};
+		27BA9D6321A8213200F3A248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27BA9D3721A8213100F3A248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27BA9D3E21A8213100F3A248;
+			remoteInfo = FSFurnitureStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ECAEBFD71FD3D63775A1806 /* Pods-FSFurnitureStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSFurnitureStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FSFurnitureStore/Pods-FSFurnitureStore.debug.xcconfig"; sourceTree = "<group>"; };
+		2701D08921B1A47400294A0D /* FSStoreConcentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSStoreConcentController.h; sourceTree = "<group>"; };
+		2701D08A21B1A47400294A0D /* FSStoreConcentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSStoreConcentController.m; sourceTree = "<group>"; };
+		2701D08E21B1A4C900294A0D /* FSStoreProductController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSStoreProductController.h; sourceTree = "<group>"; };
+		2701D08F21B1A4C900294A0D /* FSStoreProductController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSStoreProductController.m; sourceTree = "<group>"; };
+		2701D09121B1A50F00294A0D /* FSStoreContactController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSStoreContactController.h; sourceTree = "<group>"; };
+		2701D09221B1A50F00294A0D /* FSStoreContactController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSStoreContactController.m; sourceTree = "<group>"; };
+		270EAC9021AF0BAD000E0B27 /* FSMeInfoHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMeInfoHeaderView.h; sourceTree = "<group>"; };
+		270EAC9121AF0BAD000E0B27 /* FSMeInfoHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSMeInfoHeaderView.m; sourceTree = "<group>"; };
+		271018C321AD82B000887421 /* FSClassifySearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSClassifySearchBar.h; sourceTree = "<group>"; };
+		271018C421AD82B000887421 /* FSClassifySearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSClassifySearchBar.m; sourceTree = "<group>"; };
+		2711E24721AC55A200F22E0E /* FSRegisterBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSRegisterBottomView.h; sourceTree = "<group>"; };
+		2711E24821AC55A200F22E0E /* FSRegisterBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSRegisterBottomView.m; sourceTree = "<group>"; };
+		271B6C4D21B82755000EBFF9 /* FSMeInfoUpdateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMeInfoUpdateController.h; sourceTree = "<group>"; };
+		271B6C4E21B82755000EBFF9 /* FSMeInfoUpdateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSMeInfoUpdateController.m; sourceTree = "<group>"; };
+		271DABC721AE91CD0034FED0 /* FSClassProductListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSClassProductListController.h; sourceTree = "<group>"; };
+		271DABC821AE91CD0034FED0 /* FSClassProductListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSClassProductListController.m; sourceTree = "<group>"; };
+		271DABCA21AE976F0034FED0 /* FSProductSearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSProductSearchController.h; sourceTree = "<group>"; };
+		271DABCB21AE976F0034FED0 /* FSProductSearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSProductSearchController.m; sourceTree = "<group>"; };
+		271DABCD21AE9E260034FED0 /* FSProductDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSProductDetailViewController.h; sourceTree = "<group>"; };
+		271DABCE21AE9E260034FED0 /* FSProductDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSProductDetailViewController.m; sourceTree = "<group>"; };
+		271DABCF21AE9E260034FED0 /* FSProductDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSProductDetailViewController.xib; sourceTree = "<group>"; };
+		27302CFC21ABE612004BFD7F /* FSOptionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSOptionTableViewCell.h; sourceTree = "<group>"; };
+		27302CFD21ABE612004BFD7F /* FSOptionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSOptionTableViewCell.m; sourceTree = "<group>"; };
+		27302CFF21ABEBDE004BFD7F /* FSProductTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSProductTableViewCell.h; sourceTree = "<group>"; };
+		27302D0021ABEBDE004BFD7F /* FSProductTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSProductTableViewCell.m; sourceTree = "<group>"; };
+		27302D0321AC166E004BFD7F /* FSNewOptionBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSNewOptionBaseController.h; sourceTree = "<group>"; };
+		27302D0421AC166E004BFD7F /* FSNewOptionBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSNewOptionBaseController.m; sourceTree = "<group>"; };
+		27302D0621AC1A94004BFD7F /* FSNewOptionContentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSNewOptionContentCell.h; sourceTree = "<group>"; };
+		27302D0721AC1A94004BFD7F /* FSNewOptionContentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSNewOptionContentCell.m; sourceTree = "<group>"; };
+		27302D0821AC1A94004BFD7F /* FSNewOptionContentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSNewOptionContentCell.xib; sourceTree = "<group>"; };
+		27302D0B21AC1C96004BFD7F /* FSNewOptionClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSNewOptionClass.h; sourceTree = "<group>"; };
+		27302D0C21AC1C96004BFD7F /* FSNewOptionClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSNewOptionClass.m; sourceTree = "<group>"; };
+		27302D0E21AC1F99004BFD7F /* NSObject+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Additions.h"; sourceTree = "<group>"; };
+		27302D0F21AC1F99004BFD7F /* NSObject+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Additions.m"; sourceTree = "<group>"; };
+		2734D88C21B5272D00B2E9E9 /* FSStoreContactCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSStoreContactCell.h; sourceTree = "<group>"; };
+		2734D88D21B5272D00B2E9E9 /* FSStoreContactCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSStoreContactCell.m; sourceTree = "<group>"; };
+		2734D88E21B5272D00B2E9E9 /* FSStoreContactCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSStoreContactCell.xib; sourceTree = "<group>"; };
+		273B4AB621AC65AF00F8628A /* NSString+Estend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Estend.h"; sourceTree = "<group>"; };
+		273B4AB721AC65AF00F8628A /* NSString+Estend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Estend.m"; sourceTree = "<group>"; };
+		2745724921AFCF5400C42218 /* FSSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSSettingsViewController.h; sourceTree = "<group>"; };
+		2745724A21AFCF5400C42218 /* FSSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSSettingsViewController.m; sourceTree = "<group>"; };
+		2747492321AF04E300574C35 /* FSMeInfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMeInfoTableViewCell.h; sourceTree = "<group>"; };
+		2747492421AF04E300574C35 /* FSMeInfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSMeInfoTableViewCell.m; sourceTree = "<group>"; };
+		2747492521AF04E300574C35 /* FSMeInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSMeInfoTableViewCell.xib; sourceTree = "<group>"; };
+		2748F65321AEAC6800B72655 /* FSProductClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSProductClass.h; sourceTree = "<group>"; };
+		2748F65421AEAC6900B72655 /* FSProductClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSProductClass.m; sourceTree = "<group>"; };
+		2748F65621AEACA600B72655 /* FSPhotoString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPhotoString.m; sourceTree = "<group>"; };
+		2748F65721AEACA600B72655 /* FSPhotoString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPhotoString.h; sourceTree = "<group>"; };
+		2748F65921AEB46400B72655 /* FSWaitingOrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSWaitingOrderViewController.h; sourceTree = "<group>"; };
+		2748F65A21AEB46400B72655 /* FSWaitingOrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSWaitingOrderViewController.m; sourceTree = "<group>"; };
+		2748F65B21AEB46400B72655 /* FSWaitingOrderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSWaitingOrderViewController.xib; sourceTree = "<group>"; };
+		2748F65F21AEC67D00B72655 /* FSMeShoppingCartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMeShoppingCartController.h; sourceTree = "<group>"; };
+		2748F66021AEC67D00B72655 /* FSMeShoppingCartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSMeShoppingCartController.m; sourceTree = "<group>"; };
+		2748F66121AEC67D00B72655 /* FSMeShoppingCartController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSMeShoppingCartController.xib; sourceTree = "<group>"; };
+		2748F66421AEE1B500B72655 /* FSShopCartList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSShopCartList.h; sourceTree = "<group>"; };
+		2748F66521AEE1B500B72655 /* FSShopCartList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSShopCartList.m; sourceTree = "<group>"; };
+		2748F66721AEE2C100B72655 /* FSShopCartClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSShopCartClass.h; sourceTree = "<group>"; };
+		2748F66821AEE2C100B72655 /* FSShopCartClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSShopCartClass.m; sourceTree = "<group>"; };
+		274D284421B9407B00E5F544 /* FSAddressAddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSAddressAddViewController.h; sourceTree = "<group>"; };
+		274D284521B9407B00E5F544 /* FSAddressAddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAddressAddViewController.m; sourceTree = "<group>"; };
+		2754133921B02C660020C158 /* FSStorePartner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSStorePartner.h; sourceTree = "<group>"; };
+		2754133A21B02C660020C158 /* FSStorePartner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSStorePartner.m; sourceTree = "<group>"; };
+		2754133C21B02C750020C158 /* FSStoreSubclas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSStoreSubclas.m; sourceTree = "<group>"; };
+		2754133D21B02C750020C158 /* FSStoreSubclas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSStoreSubclas.h; sourceTree = "<group>"; };
+		2754134021B02E1F0020C158 /* FSStoreTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSStoreTableViewCell.h; sourceTree = "<group>"; };
+		2754134121B02E1F0020C158 /* FSStoreTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSStoreTableViewCell.m; sourceTree = "<group>"; };
+		2754134221B02E1F0020C158 /* FSStoreTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSStoreTableViewCell.xib; sourceTree = "<group>"; };
+		27620DB521C625740034D280 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		27620DB621C625740034D280 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		27620DB721C625740034D280 /* BasicCommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicCommonUtils.h; sourceTree = "<group>"; };
+		27620DB821C625740034D280 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		27620DB921C625740034D280 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		27620DBA21C625740034D280 /* BasicCommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicCommonUtils.m; sourceTree = "<group>"; };
+		27620DBB21C625740034D280 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		27620DBF21C62F770034D280 /* FSUploadConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSUploadConfig.h; sourceTree = "<group>"; };
+		27620DC021C62F770034D280 /* FSUploadConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSUploadConfig.m; sourceTree = "<group>"; };
+		27620DC221C6A2460034D280 /* FSCurrencyHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCurrencyHeader.h; sourceTree = "<group>"; };
+		2762E8F021AACA9B001BD218 /* FSAppDelegate+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FSAppDelegate+Utils.h"; sourceTree = "<group>"; };
+		2762E8F121AACA9B001BD218 /* FSAppDelegate+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FSAppDelegate+Utils.m"; sourceTree = "<group>"; };
+		2762E8F521AAE06C001BD218 /* FSRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSRequestManager.h; sourceTree = "<group>"; };
+		2762E8F621AAE06C001BD218 /* FSRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSRequestManager.m; sourceTree = "<group>"; };
+		2762E8F821AAE2EA001BD218 /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
+		2762E8F921AAE2EA001BD218 /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
+		2762E8FB21AAE3A4001BD218 /* FSHttpHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSHttpHeader.h; sourceTree = "<group>"; };
+		2762E8FC21AAE92D001BD218 /* FSHomeSubClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSHomeSubClass.m; sourceTree = "<group>"; };
+		2762E8FD21AAE92D001BD218 /* FSHomeJsonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSHomeJsonClass.h; sourceTree = "<group>"; };
+		2762E8FF21AAE92D001BD218 /* FSHomeJsonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSHomeJsonClass.m; sourceTree = "<group>"; };
+		2762E90121AAE92D001BD218 /* FSHomeSubClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSHomeSubClass.h; sourceTree = "<group>"; };
+		2762E90521AAEBBF001BD218 /* FSHomeBannerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSHomeBannerHeader.h; sourceTree = "<group>"; };
+		2762E90621AAEBBF001BD218 /* FSHomeBannerHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSHomeBannerHeader.m; sourceTree = "<group>"; };
+		2762E90A21AAEBF6001BD218 /* FSSectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSSectionHeaderView.h; sourceTree = "<group>"; };
+		2762E90B21AAEBF6001BD218 /* FSSectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSSectionHeaderView.m; sourceTree = "<group>"; };
+		27692DF221B437E10020CDA7 /* FSOrderListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSOrderListViewController.h; sourceTree = "<group>"; };
+		27692DF321B437E10020CDA7 /* FSOrderListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSOrderListViewController.m; sourceTree = "<group>"; };
+		27692DF621B43C630020CDA7 /* FSOrderContentInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSOrderContentInfoCell.h; sourceTree = "<group>"; };
+		27692DF721B43C630020CDA7 /* FSOrderContentInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSOrderContentInfoCell.m; sourceTree = "<group>"; };
+		27692DF821B43C630020CDA7 /* FSOrderContentInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSOrderContentInfoCell.xib; sourceTree = "<group>"; };
+		2775FE7821AFD0F700867242 /* FSSettingsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSSettingsTableViewCell.h; sourceTree = "<group>"; };
+		2775FE7921AFD0F700867242 /* FSSettingsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSSettingsTableViewCell.m; sourceTree = "<group>"; };
+		2775FE7A21AFD0F700867242 /* FSSettingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSSettingsTableViewCell.xib; sourceTree = "<group>"; };
+		2785B54921B56B54001762EA /* FSAddressManagerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSAddressManagerCell.h; sourceTree = "<group>"; };
+		2785B54A21B56B54001762EA /* FSAddressManagerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAddressManagerCell.m; sourceTree = "<group>"; };
+		2785B54B21B56B54001762EA /* FSAddressManagerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSAddressManagerCell.xib; sourceTree = "<group>"; };
+		2785BBFB21AD4E740016BDA8 /* FSLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLoginManager.h; sourceTree = "<group>"; };
+		2785BBFC21AD4E740016BDA8 /* FSLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLoginManager.m; sourceTree = "<group>"; };
+		2785BC0021AD565F0016BDA8 /* FSConfigInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSConfigInputView.h; sourceTree = "<group>"; };
+		2785BC0121AD565F0016BDA8 /* FSConfigInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSConfigInputView.m; sourceTree = "<group>"; };
+		2797DB5321B8EFA100180B7C /* FSProductCommentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSProductCommentController.h; sourceTree = "<group>"; };
+		2797DB5421B8EFA100180B7C /* FSProductCommentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSProductCommentController.m; sourceTree = "<group>"; };
+		2798653F21AEEB8C00622E17 /* FSShoppingCartInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSShoppingCartInfoCell.h; sourceTree = "<group>"; };
+		2798654021AEEB8C00622E17 /* FSShoppingCartInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSShoppingCartInfoCell.m; sourceTree = "<group>"; };
+		2798654121AEEB8C00622E17 /* FSShoppingCartInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSShoppingCartInfoCell.xib; sourceTree = "<group>"; };
+		279AC0D721B55BED004E226A /* FSProductCollectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSProductCollectController.h; sourceTree = "<group>"; };
+		279AC0D821B55BED004E226A /* FSProductCollectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSProductCollectController.m; sourceTree = "<group>"; };
+		279AC0DC21B560CC004E226A /* FSAddressManagerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSAddressManagerController.h; sourceTree = "<group>"; };
+		279AC0DD21B560CC004E226A /* FSAddressManagerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAddressManagerController.m; sourceTree = "<group>"; };
+		279DD42521BA905B003009AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		279DD42721BA9064003009AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		279DD42F21BA9901003009AF /* FSFurnitureStore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FSFurnitureStore.entitlements; sourceTree = "<group>"; };
+		27AD220521AC3AF800C86861 /* FSOptionDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSOptionDetailViewController.h; sourceTree = "<group>"; };
+		27AD220621AC3AF800C86861 /* FSOptionDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSOptionDetailViewController.m; sourceTree = "<group>"; };
+		27AD220721AC3AF800C86861 /* FSOptionDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSOptionDetailViewController.xib; sourceTree = "<group>"; };
+		27AD220A21AC452F00C86861 /* FSCommentBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCommentBaseController.h; sourceTree = "<group>"; };
+		27AD220B21AC452F00C86861 /* FSCommentBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSCommentBaseController.m; sourceTree = "<group>"; };
+		27AD220D21AC45AD00C86861 /* FSCommentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCommentTableViewCell.h; sourceTree = "<group>"; };
+		27AD220E21AC45AD00C86861 /* FSCommentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSCommentTableViewCell.m; sourceTree = "<group>"; };
+		27AD220F21AC45AD00C86861 /* FSCommentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSCommentTableViewCell.xib; sourceTree = "<group>"; };
+		27AD221521AC4DD300C86861 /* FSLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLoginViewController.h; sourceTree = "<group>"; };
+		27AD221621AC4DD300C86861 /* FSLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLoginViewController.m; sourceTree = "<group>"; };
+		27AD221821AC4E5D00C86861 /* FSLogRegistConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLogRegistConfig.h; sourceTree = "<group>"; };
+		27AD221921AC4E5D00C86861 /* FSLogRegistConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLogRegistConfig.m; sourceTree = "<group>"; };
+		27AF050521B0458800962B3B /* FSStoreDetailBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSStoreDetailBaseController.h; sourceTree = "<group>"; };
+		27AF050621B0458800962B3B /* FSStoreDetailBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSStoreDetailBaseController.m; sourceTree = "<group>"; };
+		27AF050821B05DCD00962B3B /* FSStoreInfoHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSStoreInfoHeader.h; sourceTree = "<group>"; };
+		27AF050921B05DCD00962B3B /* FSStoreInfoHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSStoreInfoHeader.m; sourceTree = "<group>"; };
+		27B0022321B543200003C3DC /* FSStoreCollectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSStoreCollectViewController.h; sourceTree = "<group>"; };
+		27B0022421B543200003C3DC /* FSStoreCollectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSStoreCollectViewController.m; sourceTree = "<group>"; };
+		27B0022721B553410003C3DC /* FSStoreCollectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSStoreCollectCell.h; sourceTree = "<group>"; };
+		27B0022821B553410003C3DC /* FSStoreCollectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSStoreCollectCell.m; sourceTree = "<group>"; };
+		27B0022921B553410003C3DC /* FSStoreCollectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSStoreCollectCell.xib; sourceTree = "<group>"; };
+		27B08E3621B2AEA400CCE3B7 /* FSSettlementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSSettlementViewController.h; sourceTree = "<group>"; };
+		27B08E3721B2AEA400CCE3B7 /* FSSettlementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSSettlementViewController.m; sourceTree = "<group>"; };
+		27B08E3821B2AEA400CCE3B7 /* FSSettlementViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSSettlementViewController.xib; sourceTree = "<group>"; };
+		27B08E3B21B2CC3900CCE3B7 /* FSRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSRegisterViewController.h; sourceTree = "<group>"; };
+		27B08E3C21B2CC3900CCE3B7 /* FSRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSRegisterViewController.m; sourceTree = "<group>"; };
+		27B365CB21AAC1B7004A4627 /* FSBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSBaseModel.h; sourceTree = "<group>"; };
+		27B365CC21AAC1B7004A4627 /* FSBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSBaseModel.m; sourceTree = "<group>"; };
+		27B365CE21AAC643004A4627 /* FSBaseBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBaseBrowserViewController.m; sourceTree = "<group>"; };
+		27B365CF21AAC643004A4627 /* FSBaseBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseBrowserViewController.h; sourceTree = "<group>"; };
+		27B365D221AAC755004A4627 /* FSProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSProgressHUD.m; sourceTree = "<group>"; };
+		27B365D321AAC755004A4627 /* FSProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSProgressHUD.h; sourceTree = "<group>"; };
+		27B365D421AAC755004A4627 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		27B365D621AAC755004A4627 /* FSCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCacheManager.h; sourceTree = "<group>"; };
+		27B365D721AAC755004A4627 /* FSCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCacheManager.m; sourceTree = "<group>"; };
+		27BA9D3F21A8213100F3A248 /* FSFurnitureStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSFurnitureStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BA9D4B21A8213200F3A248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27BA9D5021A8213200F3A248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27BA9D5121A8213200F3A248 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27BA9D5721A8213200F3A248 /* FSFurnitureStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSFurnitureStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BA9D5B21A8213200F3A248 /* FSFurnitureStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSFurnitureStoreTests.m; sourceTree = "<group>"; };
+		27BA9D5D21A8213200F3A248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27BA9D6221A8213200F3A248 /* FSFurnitureStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSFurnitureStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BA9D6621A8213200F3A248 /* FSFurnitureStoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSFurnitureStoreUITests.m; sourceTree = "<group>"; };
+		27BA9D6821A8213200F3A248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27BA9D7921A8372600F3A248 /* FSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAppDelegate.h; sourceTree = "<group>"; };
+		27BA9D7A21A8372600F3A248 /* FSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAppDelegate.m; sourceTree = "<group>"; };
+		27BA9D9721A838A100F3A248 /* FSBaseConfigViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSBaseConfigViewController.h; sourceTree = "<group>"; };
+		27BA9D9821A838A100F3A248 /* FSBaseConfigViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSBaseConfigViewController.m; sourceTree = "<group>"; };
+		27BA9D9A21A83A9400F3A248 /* FSNavDisplayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSNavDisplayViewController.h; sourceTree = "<group>"; };
+		27BA9D9B21A83A9400F3A248 /* FSNavDisplayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSNavDisplayViewController.m; sourceTree = "<group>"; };
+		27BA9D9E21A8424300F3A248 /* FSConfiguration.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSConfiguration.pch; sourceTree = "<group>"; };
+		27BBC12321A955D300124EDE /* FSBaseTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSBaseTabBarViewController.h; sourceTree = "<group>"; };
+		27BBC12421A955D300124EDE /* FSBaseTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSBaseTabBarViewController.m; sourceTree = "<group>"; };
+		27BBC12621A9561100124EDE /* FSBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSBaseNavigationController.h; sourceTree = "<group>"; };
+		27BBC12721A9561100124EDE /* FSBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSBaseNavigationController.m; sourceTree = "<group>"; };
+		27BBC12921A95D8600124EDE /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		27BBC12A21A95D8600124EDE /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		27BBC12B21A95D8600124EDE /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		27BBC12C21A95D8600124EDE /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		27BBC12D21A95D8600124EDE /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		27BBC12E21A95D8600124EDE /* UIWindow+YXSafeArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+YXSafeArea.h"; sourceTree = "<group>"; };
+		27BBC12F21A95D8600124EDE /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		27BBC13021A95D8600124EDE /* UIButton+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extend.h"; sourceTree = "<group>"; };
+		27BBC13121A95D8600124EDE /* UIButton+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extend.m"; sourceTree = "<group>"; };
+		27BBC13221A95D8600124EDE /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		27BBC13321A95D8600124EDE /* UIWindow+YXSafeArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+YXSafeArea.m"; sourceTree = "<group>"; };
+		27BBC13421A95D8600124EDE /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		27BBC13B21A99E8900124EDE /* FSHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSHomeViewController.h; sourceTree = "<group>"; };
+		27BBC13C21A99E8900124EDE /* FSHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSHomeViewController.m; sourceTree = "<group>"; };
+		27BBC13E21A99E9F00124EDE /* FSClassifyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSClassifyViewController.h; sourceTree = "<group>"; };
+		27BBC13F21A99E9F00124EDE /* FSClassifyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSClassifyViewController.m; sourceTree = "<group>"; };
+		27BBC14121A99EBF00124EDE /* FSStoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSStoreViewController.h; sourceTree = "<group>"; };
+		27BBC14221A99EBF00124EDE /* FSStoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSStoreViewController.m; sourceTree = "<group>"; };
+		27BBC14421A99ED400124EDE /* FSMeInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMeInfoViewController.h; sourceTree = "<group>"; };
+		27BBC14521A99ED400124EDE /* FSMeInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSMeInfoViewController.m; sourceTree = "<group>"; };
+		27C2326E21B81E7600509BCB /* FSAboutMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSAboutMeViewController.h; sourceTree = "<group>"; };
+		27C2326F21B81E7600509BCB /* FSAboutMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAboutMeViewController.m; sourceTree = "<group>"; };
+		27C2327021B81E7600509BCB /* FSAboutMeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSAboutMeViewController.xib; sourceTree = "<group>"; };
+		27D1038D21AC516B00B83516 /* FSLogInRegisterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLogInRegisterCell.h; sourceTree = "<group>"; };
+		27D1038E21AC516B00B83516 /* FSLogInRegisterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLogInRegisterCell.m; sourceTree = "<group>"; };
+		27D1038F21AC516B00B83516 /* FSLogInRegisterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSLogInRegisterCell.xib; sourceTree = "<group>"; };
+		27E0056D21B0374E005FFDC4 /* FSStoreProductCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSStoreProductCell.h; sourceTree = "<group>"; };
+		27E0056E21B0374E005FFDC4 /* FSStoreProductCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSStoreProductCell.m; sourceTree = "<group>"; };
+		27E0056F21B0374E005FFDC4 /* FSStoreProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSStoreProductCell.xib; sourceTree = "<group>"; };
+		27E22D5C21AD981300B35A65 /* FSClassifyRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSClassifyRoot.h; sourceTree = "<group>"; };
+		27E22D5D21AD981300B35A65 /* FSClassifyRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSClassifyRoot.m; sourceTree = "<group>"; };
+		27E22D6521AD994800B35A65 /* FSClassifyColectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSClassifyColectCell.h; sourceTree = "<group>"; };
+		27E22D6621AD994800B35A65 /* FSClassifyColectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSClassifyColectCell.m; sourceTree = "<group>"; };
+		27E22D6721AD994800B35A65 /* FSClassifyColectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSClassifyColectCell.xib; sourceTree = "<group>"; };
+		27E22D6B21AD9ED400B35A65 /* FSClassProductResultController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSClassProductResultController.h; sourceTree = "<group>"; };
+		27E22D6C21AD9ED400B35A65 /* FSClassProductResultController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSClassProductResultController.m; sourceTree = "<group>"; };
+		27E22D7021ADA67400B35A65 /* FSClassifyProductCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSClassifyProductCell.h; sourceTree = "<group>"; };
+		27E22D7121ADA67400B35A65 /* FSClassifyProductCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSClassifyProductCell.m; sourceTree = "<group>"; };
+		27E22D7221ADA67400B35A65 /* FSClassifyProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSClassifyProductCell.xib; sourceTree = "<group>"; };
+		27E4016721B4469F001F7539 /* FSOrderInfoList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSOrderInfoList.h; sourceTree = "<group>"; };
+		27E4016821B4469F001F7539 /* FSOrderInfoList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSOrderInfoList.m; sourceTree = "<group>"; };
+		27EF72C121ABC21B0003DE81 /* FSPartnerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPartnerTableViewCell.h; sourceTree = "<group>"; };
+		27EF72C221ABC21B0003DE81 /* FSPartnerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPartnerTableViewCell.m; sourceTree = "<group>"; };
+		27EF72C421ABC49F0003DE81 /* FSPartnerCollectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPartnerCollectCell.h; sourceTree = "<group>"; };
+		27EF72C521ABC49F0003DE81 /* FSPartnerCollectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPartnerCollectCell.m; sourceTree = "<group>"; };
+		27EF72C721ABD73C0003DE81 /* FSCenterAdTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCenterAdTableViewCell.h; sourceTree = "<group>"; };
+		27EF72C821ABD73C0003DE81 /* FSCenterAdTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSCenterAdTableViewCell.m; sourceTree = "<group>"; };
+		27EF72C921ABD73C0003DE81 /* FSCenterAdTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSCenterAdTableViewCell.xib; sourceTree = "<group>"; };
+		27F2329D21AD69AE006CD3CB /* FSNewOptionListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSNewOptionListController.h; sourceTree = "<group>"; };
+		27F2329E21AD69AE006CD3CB /* FSNewOptionListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSNewOptionListController.m; sourceTree = "<group>"; };
+		27F2DF3D21AD63EC00FF6803 /* FSHttpResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSHttpResult.h; sourceTree = "<group>"; };
+		27F2DF3E21AD63EC00FF6803 /* FSHttpResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSHttpResult.m; sourceTree = "<group>"; };
+		35768D7C0944279C8B9D9B50 /* Pods-FSFurnitureStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSFurnitureStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-FSFurnitureStore/Pods-FSFurnitureStore.release.xcconfig"; sourceTree = "<group>"; };
+		FAC33C5A0E41DFECBF379804 /* libPods-FSFurnitureStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FSFurnitureStore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27BA9D3C21A8213100F3A248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E2D2781229DDC18B2835F5 /* libPods-FSFurnitureStore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BA9D5421A8213200F3A248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BA9D5F21A8213200F3A248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		097621E8D9EA10C62AF31E29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1ECAEBFD71FD3D63775A1806 /* Pods-FSFurnitureStore.debug.xcconfig */,
+				35768D7C0944279C8B9D9B50 /* Pods-FSFurnitureStore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0F9342A6F4CA5EDB6B4CC886 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAC33C5A0E41DFECBF379804 /* libPods-FSFurnitureStore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		272D96E421BA8CA800A726F1 /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				279DD42621BA905B003009AF /* InfoPlist.strings */,
+			);
+			path = Languages;
+			sourceTree = "<group>";
+		};
+		27302D0221AC1626004BFD7F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27302D0321AC166E004BFD7F /* FSNewOptionBaseController.h */,
+				27302D0421AC166E004BFD7F /* FSNewOptionBaseController.m */,
+				27AD220521AC3AF800C86861 /* FSOptionDetailViewController.h */,
+				27AD220621AC3AF800C86861 /* FSOptionDetailViewController.m */,
+				27AD220721AC3AF800C86861 /* FSOptionDetailViewController.xib */,
+				27AD220A21AC452F00C86861 /* FSCommentBaseController.h */,
+				27AD220B21AC452F00C86861 /* FSCommentBaseController.m */,
+				27F2329D21AD69AE006CD3CB /* FSNewOptionListController.h */,
+				27F2329E21AD69AE006CD3CB /* FSNewOptionListController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2748F65E21AEC63400B72655 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2748F65F21AEC67D00B72655 /* FSMeShoppingCartController.h */,
+				2748F66021AEC67D00B72655 /* FSMeShoppingCartController.m */,
+				2748F66121AEC67D00B72655 /* FSMeShoppingCartController.xib */,
+				27B08E3621B2AEA400CCE3B7 /* FSSettlementViewController.h */,
+				27B08E3721B2AEA400CCE3B7 /* FSSettlementViewController.m */,
+				27B08E3821B2AEA400CCE3B7 /* FSSettlementViewController.xib */,
+				279AC0DC21B560CC004E226A /* FSAddressManagerController.h */,
+				279AC0DD21B560CC004E226A /* FSAddressManagerController.m */,
+				274D284421B9407B00E5F544 /* FSAddressAddViewController.h */,
+				274D284521B9407B00E5F544 /* FSAddressAddViewController.m */,
+				2745724921AFCF5400C42218 /* FSSettingsViewController.h */,
+				2745724A21AFCF5400C42218 /* FSSettingsViewController.m */,
+				27C2326E21B81E7600509BCB /* FSAboutMeViewController.h */,
+				27C2326F21B81E7600509BCB /* FSAboutMeViewController.m */,
+				27C2327021B81E7600509BCB /* FSAboutMeViewController.xib */,
+				271B6C4D21B82755000EBFF9 /* FSMeInfoUpdateController.h */,
+				271B6C4E21B82755000EBFF9 /* FSMeInfoUpdateController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2754133F21B02E0E0020C158 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2754134021B02E1F0020C158 /* FSStoreTableViewCell.h */,
+				2754134121B02E1F0020C158 /* FSStoreTableViewCell.m */,
+				2754134221B02E1F0020C158 /* FSStoreTableViewCell.xib */,
+				27E0056D21B0374E005FFDC4 /* FSStoreProductCell.h */,
+				27E0056E21B0374E005FFDC4 /* FSStoreProductCell.m */,
+				27E0056F21B0374E005FFDC4 /* FSStoreProductCell.xib */,
+				2734D88C21B5272D00B2E9E9 /* FSStoreContactCell.h */,
+				2734D88D21B5272D00B2E9E9 /* FSStoreContactCell.m */,
+				2734D88E21B5272D00B2E9E9 /* FSStoreContactCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		27620DB421C625740034D280 /* Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				27620DB921C625740034D280 /* GTMDefines.h */,
+				27620DB521C625740034D280 /* Base64.h */,
+				27620DB821C625740034D280 /* Base64.m */,
+				27620DB621C625740034D280 /* GTMBase64.h */,
+				27620DBB21C625740034D280 /* GTMBase64.m */,
+				27620DB721C625740034D280 /* BasicCommonUtils.h */,
+				27620DBA21C625740034D280 /* BasicCommonUtils.m */,
+			);
+			path = Encrypt;
+			sourceTree = "<group>";
+		};
+		2762E8F321AAE06C001BD218 /* FSRequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				2762E8FB21AAE3A4001BD218 /* FSHttpHeader.h */,
+				27F2DF3D21AD63EC00FF6803 /* FSHttpResult.h */,
+				27F2DF3E21AD63EC00FF6803 /* FSHttpResult.m */,
+				2762E8F521AAE06C001BD218 /* FSRequestManager.h */,
+				2762E8F621AAE06C001BD218 /* FSRequestManager.m */,
+				27620DBF21C62F770034D280 /* FSUploadConfig.h */,
+				27620DC021C62F770034D280 /* FSUploadConfig.m */,
+			);
+			path = FSRequestManager;
+			sourceTree = "<group>";
+		};
+		27692DF121B437CF0020CDA7 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				27692DF221B437E10020CDA7 /* FSOrderListViewController.h */,
+				27692DF321B437E10020CDA7 /* FSOrderListViewController.m */,
+				27E4016621B44673001F7539 /* Model */,
+				27692DF521B43C3A0020CDA7 /* View */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		27692DF521B43C3A0020CDA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27692DF621B43C630020CDA7 /* FSOrderContentInfoCell.h */,
+				27692DF721B43C630020CDA7 /* FSOrderContentInfoCell.m */,
+				27692DF821B43C630020CDA7 /* FSOrderContentInfoCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2785BBFA21AD4E5A0016BDA8 /* FSUsersManager */ = {
+			isa = PBXGroup;
+			children = (
+				2785BBFB21AD4E740016BDA8 /* FSLoginManager.h */,
+				2785BBFC21AD4E740016BDA8 /* FSLoginManager.m */,
+			);
+			name = FSUsersManager;
+			path = FSFurnitureStore/Classes/Utils/FSUsersManager;
+			sourceTree = SOURCE_ROOT;
+		};
+		2785BBFF21AD56420016BDA8 /* FSConfigInputView */ = {
+			isa = PBXGroup;
+			children = (
+				2785BC0021AD565F0016BDA8 /* FSConfigInputView.h */,
+				2785BC0121AD565F0016BDA8 /* FSConfigInputView.m */,
+			);
+			path = FSConfigInputView;
+			sourceTree = "<group>";
+		};
+		2798653E21AEEB4100622E17 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2798653F21AEEB8C00622E17 /* FSShoppingCartInfoCell.h */,
+				2798654021AEEB8C00622E17 /* FSShoppingCartInfoCell.m */,
+				2798654121AEEB8C00622E17 /* FSShoppingCartInfoCell.xib */,
+				2747492321AF04E300574C35 /* FSMeInfoTableViewCell.h */,
+				2747492421AF04E300574C35 /* FSMeInfoTableViewCell.m */,
+				2747492521AF04E300574C35 /* FSMeInfoTableViewCell.xib */,
+				2775FE7821AFD0F700867242 /* FSSettingsTableViewCell.h */,
+				2775FE7921AFD0F700867242 /* FSSettingsTableViewCell.m */,
+				2775FE7A21AFD0F700867242 /* FSSettingsTableViewCell.xib */,
+				2785B54921B56B54001762EA /* FSAddressManagerCell.h */,
+				2785B54A21B56B54001762EA /* FSAddressManagerCell.m */,
+				2785B54B21B56B54001762EA /* FSAddressManagerCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		27AD221221AC4D9000C86861 /* LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				27AD221521AC4DD300C86861 /* FSLoginViewController.h */,
+				27AD221621AC4DD300C86861 /* FSLoginViewController.m */,
+				27B08E3B21B2CC3900CCE3B7 /* FSRegisterViewController.h */,
+				27B08E3C21B2CC3900CCE3B7 /* FSRegisterViewController.m */,
+				27AD221321AC4D9000C86861 /* Model */,
+				27AD221421AC4D9000C86861 /* View */,
+			);
+			path = LoginRegister;
+			sourceTree = "<group>";
+		};
+		27AD221321AC4D9000C86861 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27AD221821AC4E5D00C86861 /* FSLogRegistConfig.h */,
+				27AD221921AC4E5D00C86861 /* FSLogRegistConfig.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27AD221421AC4D9000C86861 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27D1038D21AC516B00B83516 /* FSLogInRegisterCell.h */,
+				27D1038E21AC516B00B83516 /* FSLogInRegisterCell.m */,
+				27D1038F21AC516B00B83516 /* FSLogInRegisterCell.xib */,
+				2711E24721AC55A200F22E0E /* FSRegisterBottomView.h */,
+				2711E24821AC55A200F22E0E /* FSRegisterBottomView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27AF050421B0453400962B3B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27AF050521B0458800962B3B /* FSStoreDetailBaseController.h */,
+				27AF050621B0458800962B3B /* FSStoreDetailBaseController.m */,
+				2701D08921B1A47400294A0D /* FSStoreConcentController.h */,
+				2701D08A21B1A47400294A0D /* FSStoreConcentController.m */,
+				2701D08E21B1A4C900294A0D /* FSStoreProductController.h */,
+				2701D08F21B1A4C900294A0D /* FSStoreProductController.m */,
+				2701D09121B1A50F00294A0D /* FSStoreContactController.h */,
+				2701D09221B1A50F00294A0D /* FSStoreContactController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		27B0022221B542F50003C3DC /* Collect */ = {
+			isa = PBXGroup;
+			children = (
+				27B0022321B543200003C3DC /* FSStoreCollectViewController.h */,
+				27B0022421B543200003C3DC /* FSStoreCollectViewController.m */,
+				279AC0D721B55BED004E226A /* FSProductCollectController.h */,
+				279AC0D821B55BED004E226A /* FSProductCollectController.m */,
+				27B0022621B553250003C3DC /* View */,
+			);
+			path = Collect;
+			sourceTree = "<group>";
+		};
+		27B0022621B553250003C3DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27B0022721B553410003C3DC /* FSStoreCollectCell.h */,
+				27B0022821B553410003C3DC /* FSStoreCollectCell.m */,
+				27B0022921B553410003C3DC /* FSStoreCollectCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27B365D121AAC755004A4627 /* FSProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				27B365D321AAC755004A4627 /* FSProgressHUD.h */,
+				27B365D221AAC755004A4627 /* FSProgressHUD.m */,
+				27B365D421AAC755004A4627 /* MBProgressHUD.bundle */,
+			);
+			path = FSProgressHUD;
+			sourceTree = "<group>";
+		};
+		27B365D521AAC755004A4627 /* FSCachesManager */ = {
+			isa = PBXGroup;
+			children = (
+				27B365D621AAC755004A4627 /* FSCacheManager.h */,
+				27B365D721AAC755004A4627 /* FSCacheManager.m */,
+			);
+			path = FSCachesManager;
+			sourceTree = "<group>";
+		};
+		27BA9D3621A8213100F3A248 = {
+			isa = PBXGroup;
+			children = (
+				27BA9D4121A8213100F3A248 /* FSFurnitureStore */,
+				27BA9D5A21A8213200F3A248 /* FSFurnitureStoreTests */,
+				27BA9D6521A8213200F3A248 /* FSFurnitureStoreUITests */,
+				27BA9D4021A8213100F3A248 /* Products */,
+				097621E8D9EA10C62AF31E29 /* Pods */,
+				0F9342A6F4CA5EDB6B4CC886 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27BA9D4021A8213100F3A248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27BA9D3F21A8213100F3A248 /* FSFurnitureStore.app */,
+				27BA9D5721A8213200F3A248 /* FSFurnitureStoreTests.xctest */,
+				27BA9D6221A8213200F3A248 /* FSFurnitureStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27BA9D4121A8213100F3A248 /* FSFurnitureStore */ = {
+			isa = PBXGroup;
+			children = (
+				279DD42F21BA9901003009AF /* FSFurnitureStore.entitlements */,
+				272D96E421BA8CA800A726F1 /* Languages */,
+				27BA9D7421A8372600F3A248 /* Classes */,
+				27BA9D4B21A8213200F3A248 /* Assets.xcassets */,
+				27BA9D5021A8213200F3A248 /* Info.plist */,
+				27BA9D5121A8213200F3A248 /* main.m */,
+				27BA9D9E21A8424300F3A248 /* FSConfiguration.pch */,
+				27620DC221C6A2460034D280 /* FSCurrencyHeader.h */,
+			);
+			path = FSFurnitureStore;
+			sourceTree = "<group>";
+		};
+		27BA9D5A21A8213200F3A248 /* FSFurnitureStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				27BA9D5B21A8213200F3A248 /* FSFurnitureStoreTests.m */,
+				27BA9D5D21A8213200F3A248 /* Info.plist */,
+			);
+			path = FSFurnitureStoreTests;
+			sourceTree = "<group>";
+		};
+		27BA9D6521A8213200F3A248 /* FSFurnitureStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27BA9D6621A8213200F3A248 /* FSFurnitureStoreUITests.m */,
+				27BA9D6821A8213200F3A248 /* Info.plist */,
+			);
+			path = FSFurnitureStoreUITests;
+			sourceTree = "<group>";
+		};
+		27BA9D7421A8372600F3A248 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				27BA9D7821A8372600F3A248 /* AppDelegate */,
+				27BA9D8021A8372600F3A248 /* Base */,
+				27BA9D7B21A8372600F3A248 /* Main */,
+				27BA9D7521A8372600F3A248 /* Module */,
+				27BA9D7F21A8372600F3A248 /* Categories */,
+				27BA9D7721A8372600F3A248 /* Libs */,
+				27BA9D7621A8372600F3A248 /* Utils */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		27BA9D7521A8372600F3A248 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				27B365CB21AAC1B7004A4627 /* FSBaseModel.h */,
+				27B365CC21AAC1B7004A4627 /* FSBaseModel.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		27BA9D7621A8372600F3A248 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				27B365D121AAC755004A4627 /* FSProgressHUD */,
+				2785BBFA21AD4E5A0016BDA8 /* FSUsersManager */,
+				27B365D521AAC755004A4627 /* FSCachesManager */,
+				2762E8F321AAE06C001BD218 /* FSRequestManager */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		27BA9D7721A8372600F3A248 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				27620DB421C625740034D280 /* Encrypt */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		27BA9D7821A8372600F3A248 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				27BA9D7921A8372600F3A248 /* FSAppDelegate.h */,
+				27BA9D7A21A8372600F3A248 /* FSAppDelegate.m */,
+				2762E8F021AACA9B001BD218 /* FSAppDelegate+Utils.h */,
+				2762E8F121AACA9B001BD218 /* FSAppDelegate+Utils.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		27BA9D7B21A8372600F3A248 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				27AD221221AC4D9000C86861 /* LoginRegister */,
+				27BA9D8E21A837F700F3A248 /* Home */,
+				27BA9D9121A837F700F3A248 /* Classify */,
+				27BA9D9421A837F700F3A248 /* Store */,
+				27BA9D8B21A837F700F3A248 /* Me */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		27BA9D7F21A8372600F3A248 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				27BBC13021A95D8600124EDE /* UIButton+Extend.h */,
+				27BBC13121A95D8600124EDE /* UIButton+Extend.m */,
+				273B4AB621AC65AF00F8628A /* NSString+Estend.h */,
+				273B4AB721AC65AF00F8628A /* NSString+Estend.m */,
+				27BBC12D21A95D8600124EDE /* UIView+Extension.h */,
+				27BBC12A21A95D8600124EDE /* UIView+Extension.m */,
+				27BBC12921A95D8600124EDE /* UIColor+Extension.h */,
+				27BBC13421A95D8600124EDE /* UIColor+Extension.m */,
+				27BBC12B21A95D8600124EDE /* UIImage+Extension.h */,
+				27BBC13221A95D8600124EDE /* UIImage+Extension.m */,
+				27302D0E21AC1F99004BFD7F /* NSObject+Additions.h */,
+				27302D0F21AC1F99004BFD7F /* NSObject+Additions.m */,
+				27BBC12F21A95D8600124EDE /* UIBarButtonItem+Item.h */,
+				27BBC12C21A95D8600124EDE /* UIBarButtonItem+Item.m */,
+				27BBC12E21A95D8600124EDE /* UIWindow+YXSafeArea.h */,
+				27BBC13321A95D8600124EDE /* UIWindow+YXSafeArea.m */,
+				2762E8F921AAE2EA001BD218 /* UIImageView+SDWebImage.h */,
+				2762E8F821AAE2EA001BD218 /* UIImageView+SDWebImage.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		27BA9D8021A8372600F3A248 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				27BBC12621A9561100124EDE /* FSBaseNavigationController.h */,
+				27BBC12721A9561100124EDE /* FSBaseNavigationController.m */,
+				27BA9D9A21A83A9400F3A248 /* FSNavDisplayViewController.h */,
+				27BA9D9B21A83A9400F3A248 /* FSNavDisplayViewController.m */,
+				27BA9D9721A838A100F3A248 /* FSBaseConfigViewController.h */,
+				27BA9D9821A838A100F3A248 /* FSBaseConfigViewController.m */,
+				27BBC12321A955D300124EDE /* FSBaseTabBarViewController.h */,
+				27BBC12421A955D300124EDE /* FSBaseTabBarViewController.m */,
+				27B365CF21AAC643004A4627 /* FSBaseBrowserViewController.h */,
+				27B365CE21AAC643004A4627 /* FSBaseBrowserViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		27BA9D8B21A837F700F3A248 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				27BBC14421A99ED400124EDE /* FSMeInfoViewController.h */,
+				27BBC14521A99ED400124EDE /* FSMeInfoViewController.m */,
+				2748F65E21AEC63400B72655 /* Controller */,
+				27692DF121B437CF0020CDA7 /* Order */,
+				27B0022221B542F50003C3DC /* Collect */,
+				27BA9D8C21A837F700F3A248 /* Model */,
+				27BA9D8D21A837F700F3A248 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		27BA9D8C21A837F700F3A248 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2748F66721AEE2C100B72655 /* FSShopCartClass.h */,
+				2748F66821AEE2C100B72655 /* FSShopCartClass.m */,
+				2748F66421AEE1B500B72655 /* FSShopCartList.h */,
+				2748F66521AEE1B500B72655 /* FSShopCartList.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27BA9D8D21A837F700F3A248 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2798653E21AEEB4100622E17 /* Cell */,
+				270EAC9021AF0BAD000E0B27 /* FSMeInfoHeaderView.h */,
+				270EAC9121AF0BAD000E0B27 /* FSMeInfoHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27BA9D8E21A837F700F3A248 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				27BBC13B21A99E8900124EDE /* FSHomeViewController.h */,
+				27BBC13C21A99E8900124EDE /* FSHomeViewController.m */,
+				27302D0221AC1626004BFD7F /* Controller */,
+				27BA9D8F21A837F700F3A248 /* Model */,
+				27BA9D9021A837F700F3A248 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		27BA9D8F21A837F700F3A248 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2762E90121AAE92D001BD218 /* FSHomeSubClass.h */,
+				2762E8FC21AAE92D001BD218 /* FSHomeSubClass.m */,
+				2762E8FD21AAE92D001BD218 /* FSHomeJsonClass.h */,
+				2762E8FF21AAE92D001BD218 /* FSHomeJsonClass.m */,
+				27302D0B21AC1C96004BFD7F /* FSNewOptionClass.h */,
+				27302D0C21AC1C96004BFD7F /* FSNewOptionClass.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27BA9D9021A837F700F3A248 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27EF72C021ABC1C80003DE81 /* Cell */,
+				2785BBFF21AD56420016BDA8 /* FSConfigInputView */,
+				2762E90A21AAEBF6001BD218 /* FSSectionHeaderView.h */,
+				2762E90B21AAEBF6001BD218 /* FSSectionHeaderView.m */,
+				2762E90521AAEBBF001BD218 /* FSHomeBannerHeader.h */,
+				2762E90621AAEBBF001BD218 /* FSHomeBannerHeader.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27BA9D9121A837F700F3A248 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				27BBC13E21A99E9F00124EDE /* FSClassifyViewController.h */,
+				27BBC13F21A99E9F00124EDE /* FSClassifyViewController.m */,
+				27E22D6A21AD9E1D00B35A65 /* Controller */,
+				27BA9D9221A837F700F3A248 /* Model */,
+				27BA9D9321A837F700F3A248 /* View */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		27BA9D9221A837F700F3A248 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2748F65721AEACA600B72655 /* FSPhotoString.h */,
+				2748F65621AEACA600B72655 /* FSPhotoString.m */,
+				2748F65321AEAC6800B72655 /* FSProductClass.h */,
+				2748F65421AEAC6900B72655 /* FSProductClass.m */,
+				27E22D5C21AD981300B35A65 /* FSClassifyRoot.h */,
+				27E22D5D21AD981300B35A65 /* FSClassifyRoot.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27BA9D9321A837F700F3A248 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27E22D5F21AD98EE00B35A65 /* Cell */,
+				271018C321AD82B000887421 /* FSClassifySearchBar.h */,
+				271018C421AD82B000887421 /* FSClassifySearchBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27BA9D9421A837F700F3A248 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				27BBC14121A99EBF00124EDE /* FSStoreViewController.h */,
+				27BBC14221A99EBF00124EDE /* FSStoreViewController.m */,
+				27AF050421B0453400962B3B /* Controller */,
+				27BA9D9521A837F700F3A248 /* Model */,
+				27BA9D9621A837F700F3A248 /* View */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		27BA9D9521A837F700F3A248 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2754133921B02C660020C158 /* FSStorePartner.h */,
+				2754133A21B02C660020C158 /* FSStorePartner.m */,
+				2754133D21B02C750020C158 /* FSStoreSubclas.h */,
+				2754133C21B02C750020C158 /* FSStoreSubclas.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27BA9D9621A837F700F3A248 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2754133F21B02E0E0020C158 /* Cell */,
+				27AF050821B05DCD00962B3B /* FSStoreInfoHeader.h */,
+				27AF050921B05DCD00962B3B /* FSStoreInfoHeader.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27E22D5F21AD98EE00B35A65 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				27E22D6521AD994800B35A65 /* FSClassifyColectCell.h */,
+				27E22D6621AD994800B35A65 /* FSClassifyColectCell.m */,
+				27E22D6721AD994800B35A65 /* FSClassifyColectCell.xib */,
+				27E22D7021ADA67400B35A65 /* FSClassifyProductCell.h */,
+				27E22D7121ADA67400B35A65 /* FSClassifyProductCell.m */,
+				27E22D7221ADA67400B35A65 /* FSClassifyProductCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		27E22D6A21AD9E1D00B35A65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				271DABCA21AE976F0034FED0 /* FSProductSearchController.h */,
+				271DABCB21AE976F0034FED0 /* FSProductSearchController.m */,
+				271DABC721AE91CD0034FED0 /* FSClassProductListController.h */,
+				271DABC821AE91CD0034FED0 /* FSClassProductListController.m */,
+				27E22D6B21AD9ED400B35A65 /* FSClassProductResultController.h */,
+				27E22D6C21AD9ED400B35A65 /* FSClassProductResultController.m */,
+				271DABCD21AE9E260034FED0 /* FSProductDetailViewController.h */,
+				271DABCE21AE9E260034FED0 /* FSProductDetailViewController.m */,
+				271DABCF21AE9E260034FED0 /* FSProductDetailViewController.xib */,
+				2797DB5321B8EFA100180B7C /* FSProductCommentController.h */,
+				2797DB5421B8EFA100180B7C /* FSProductCommentController.m */,
+				2748F65921AEB46400B72655 /* FSWaitingOrderViewController.h */,
+				2748F65A21AEB46400B72655 /* FSWaitingOrderViewController.m */,
+				2748F65B21AEB46400B72655 /* FSWaitingOrderViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		27E4016621B44673001F7539 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27E4016721B4469F001F7539 /* FSOrderInfoList.h */,
+				27E4016821B4469F001F7539 /* FSOrderInfoList.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27EF72C021ABC1C80003DE81 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				27EF72C121ABC21B0003DE81 /* FSPartnerTableViewCell.h */,
+				27EF72C221ABC21B0003DE81 /* FSPartnerTableViewCell.m */,
+				27EF72C421ABC49F0003DE81 /* FSPartnerCollectCell.h */,
+				27EF72C521ABC49F0003DE81 /* FSPartnerCollectCell.m */,
+				27EF72C721ABD73C0003DE81 /* FSCenterAdTableViewCell.h */,
+				27EF72C821ABD73C0003DE81 /* FSCenterAdTableViewCell.m */,
+				27EF72C921ABD73C0003DE81 /* FSCenterAdTableViewCell.xib */,
+				27302CFC21ABE612004BFD7F /* FSOptionTableViewCell.h */,
+				27302CFD21ABE612004BFD7F /* FSOptionTableViewCell.m */,
+				27302CFF21ABEBDE004BFD7F /* FSProductTableViewCell.h */,
+				27302D0021ABEBDE004BFD7F /* FSProductTableViewCell.m */,
+				27302D0621AC1A94004BFD7F /* FSNewOptionContentCell.h */,
+				27302D0721AC1A94004BFD7F /* FSNewOptionContentCell.m */,
+				27302D0821AC1A94004BFD7F /* FSNewOptionContentCell.xib */,
+				27AD220D21AC45AD00C86861 /* FSCommentTableViewCell.h */,
+				27AD220E21AC45AD00C86861 /* FSCommentTableViewCell.m */,
+				27AD220F21AC45AD00C86861 /* FSCommentTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27BA9D3E21A8213100F3A248 /* FSFurnitureStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BA9D6B21A8213200F3A248 /* Build configuration list for PBXNativeTarget "FSFurnitureStore" */;
+			buildPhases = (
+				DF3CF788EA65BFBD38FAA8B0 /* [CP] Check Pods Manifest.lock */,
+				27BA9D3B21A8213100F3A248 /* Sources */,
+				27BA9D3C21A8213100F3A248 /* Frameworks */,
+				27BA9D3D21A8213100F3A248 /* Resources */,
+				5164239E0B3BF3BA46A7260B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSFurnitureStore;
+			productName = FSFurnitureStore;
+			productReference = 27BA9D3F21A8213100F3A248 /* FSFurnitureStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27BA9D5621A8213200F3A248 /* FSFurnitureStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BA9D6E21A8213200F3A248 /* Build configuration list for PBXNativeTarget "FSFurnitureStoreTests" */;
+			buildPhases = (
+				27BA9D5321A8213200F3A248 /* Sources */,
+				27BA9D5421A8213200F3A248 /* Frameworks */,
+				27BA9D5521A8213200F3A248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27BA9D5921A8213200F3A248 /* PBXTargetDependency */,
+			);
+			name = FSFurnitureStoreTests;
+			productName = FSFurnitureStoreTests;
+			productReference = 27BA9D5721A8213200F3A248 /* FSFurnitureStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27BA9D6121A8213200F3A248 /* FSFurnitureStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BA9D7121A8213200F3A248 /* Build configuration list for PBXNativeTarget "FSFurnitureStoreUITests" */;
+			buildPhases = (
+				27BA9D5E21A8213200F3A248 /* Sources */,
+				27BA9D5F21A8213200F3A248 /* Frameworks */,
+				27BA9D6021A8213200F3A248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27BA9D6421A8213200F3A248 /* PBXTargetDependency */,
+			);
+			name = FSFurnitureStoreUITests;
+			productName = FSFurnitureStoreUITests;
+			productReference = 27BA9D6221A8213200F3A248 /* FSFurnitureStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27BA9D3721A8213100F3A248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FS;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mac TAN";
+				TargetAttributes = {
+					27BA9D3E21A8213100F3A248 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					27BA9D5621A8213200F3A248 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 27BA9D3E21A8213100F3A248;
+					};
+					27BA9D6121A8213200F3A248 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 27BA9D3E21A8213100F3A248;
+					};
+				};
+			};
+			buildConfigurationList = 27BA9D3A21A8213100F3A248 /* Build configuration list for PBXProject "FSFurnitureStore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 27BA9D3621A8213100F3A248;
+			productRefGroup = 27BA9D4021A8213100F3A248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27BA9D3E21A8213100F3A248 /* FSFurnitureStore */,
+				27BA9D5621A8213200F3A248 /* FSFurnitureStoreTests */,
+				27BA9D6121A8213200F3A248 /* FSFurnitureStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27BA9D3D21A8213100F3A248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2754134421B02E1F0020C158 /* FSStoreTableViewCell.xib in Resources */,
+				279DD42421BA905B003009AF /* InfoPlist.strings in Resources */,
+				2785B54D21B56B54001762EA /* FSAddressManagerCell.xib in Resources */,
+				27AD221121AC45AD00C86861 /* FSCommentTableViewCell.xib in Resources */,
+				2798654321AEEB8C00622E17 /* FSShoppingCartInfoCell.xib in Resources */,
+				27E0057121B0374E005FFDC4 /* FSStoreProductCell.xib in Resources */,
+				2748F66321AEC67D00B72655 /* FSMeShoppingCartController.xib in Resources */,
+				271DABD121AE9E260034FED0 /* FSProductDetailViewController.xib in Resources */,
+				27BA9D4C21A8213200F3A248 /* Assets.xcassets in Resources */,
+				27C2327221B81E7600509BCB /* FSAboutMeViewController.xib in Resources */,
+				2734D89021B5272D00B2E9E9 /* FSStoreContactCell.xib in Resources */,
+				27B0022B21B553410003C3DC /* FSStoreCollectCell.xib in Resources */,
+				2748F65D21AEB46400B72655 /* FSWaitingOrderViewController.xib in Resources */,
+				27AD220921AC3AF800C86861 /* FSOptionDetailViewController.xib in Resources */,
+				27B08E3A21B2AEA400CCE3B7 /* FSSettlementViewController.xib in Resources */,
+				27EF72CB21ABD73C0003DE81 /* FSCenterAdTableViewCell.xib in Resources */,
+				2775FE7C21AFD0F700867242 /* FSSettingsTableViewCell.xib in Resources */,
+				2747492721AF04E300574C35 /* FSMeInfoTableViewCell.xib in Resources */,
+				27E22D6921AD994800B35A65 /* FSClassifyColectCell.xib in Resources */,
+				27692DFA21B43C630020CDA7 /* FSOrderContentInfoCell.xib in Resources */,
+				27E22D7421ADA67400B35A65 /* FSClassifyProductCell.xib in Resources */,
+				27B365D921AAC755004A4627 /* MBProgressHUD.bundle in Resources */,
+				27302D0A21AC1A94004BFD7F /* FSNewOptionContentCell.xib in Resources */,
+				27D1039121AC516B00B83516 /* FSLogInRegisterCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BA9D5521A8213200F3A248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BA9D6021A8213200F3A248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5164239E0B3BF3BA46A7260B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FSFurnitureStore/Pods-FSFurnitureStore-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FSFurnitureStore/Pods-FSFurnitureStore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF3CF788EA65BFBD38FAA8B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FSFurnitureStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27BA9D3B21A8213100F3A248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BBC14321A99EBF00124EDE /* FSStoreViewController.m in Sources */,
+				271DABCC21AE976F0034FED0 /* FSProductSearchController.m in Sources */,
+				2762E8F221AACA9B001BD218 /* FSAppDelegate+Utils.m in Sources */,
+				2785BC0221AD565F0016BDA8 /* FSConfigInputView.m in Sources */,
+				27BBC12821A9561100124EDE /* FSBaseNavigationController.m in Sources */,
+				27BBC13621A95D8600124EDE /* UIBarButtonItem+Item.m in Sources */,
+				270EAC9221AF0BAD000E0B27 /* FSMeInfoHeaderView.m in Sources */,
+				27BBC13D21A99E8900124EDE /* FSHomeViewController.m in Sources */,
+				27620DBC21C625740034D280 /* Base64.m in Sources */,
+				27B08E3921B2AEA400CCE3B7 /* FSSettlementViewController.m in Sources */,
+				2748F66921AEE2C100B72655 /* FSShopCartClass.m in Sources */,
+				2762E90321AAE92D001BD218 /* FSHomeJsonClass.m in Sources */,
+				27302D0921AC1A94004BFD7F /* FSNewOptionContentCell.m in Sources */,
+				271018C521AD82B000887421 /* FSClassifySearchBar.m in Sources */,
+				271DABC921AE91CD0034FED0 /* FSClassProductListController.m in Sources */,
+				27E4016921B4469F001F7539 /* FSOrderInfoList.m in Sources */,
+				27BBC12521A955D300124EDE /* FSBaseTabBarViewController.m in Sources */,
+				27692DF921B43C630020CDA7 /* FSOrderContentInfoCell.m in Sources */,
+				2762E8F721AAE06C001BD218 /* FSRequestManager.m in Sources */,
+				271B6C4F21B82755000EBFF9 /* FSMeInfoUpdateController.m in Sources */,
+				27EF72CA21ABD73C0003DE81 /* FSCenterAdTableViewCell.m in Sources */,
+				2797DB5521B8EFA100180B7C /* FSProductCommentController.m in Sources */,
+				27BA9D8121A8372700F3A248 /* FSAppDelegate.m in Sources */,
+				27AF050A21B05DCD00962B3B /* FSStoreInfoHeader.m in Sources */,
+				27620DC121C62F770034D280 /* FSUploadConfig.m in Sources */,
+				2754133E21B02C750020C158 /* FSStoreSubclas.m in Sources */,
+				2701D08C21B1A47400294A0D /* FSStoreConcentController.m in Sources */,
+				2785BBFD21AD4E740016BDA8 /* FSLoginManager.m in Sources */,
+				2762E90821AAEBBF001BD218 /* FSHomeBannerHeader.m in Sources */,
+				2762E8FA21AAE2EA001BD218 /* UIImageView+SDWebImage.m in Sources */,
+				2785B54C21B56B54001762EA /* FSAddressManagerCell.m in Sources */,
+				2745724B21AFCF5400C42218 /* FSSettingsViewController.m in Sources */,
+				27B365CD21AAC1B7004A4627 /* FSBaseModel.m in Sources */,
+				27692DF421B437E10020CDA7 /* FSOrderListViewController.m in Sources */,
+				273B4AB821AC65AF00F8628A /* NSString+Estend.m in Sources */,
+				27E22D6E21AD9ED400B35A65 /* FSClassProductResultController.m in Sources */,
+				2754133B21B02C660020C158 /* FSStorePartner.m in Sources */,
+				27B0022521B543200003C3DC /* FSStoreCollectViewController.m in Sources */,
+				27BBC13521A95D8600124EDE /* UIView+Extension.m in Sources */,
+				27F2329F21AD69AE006CD3CB /* FSNewOptionListController.m in Sources */,
+				27BBC13921A95D8600124EDE /* UIWindow+YXSafeArea.m in Sources */,
+				27BBC13821A95D8600124EDE /* UIImage+Extension.m in Sources */,
+				27302D0121ABEBDE004BFD7F /* FSProductTableViewCell.m in Sources */,
+				2798654221AEEB8C00622E17 /* FSShoppingCartInfoCell.m in Sources */,
+				27BBC14621A99ED400124EDE /* FSMeInfoViewController.m in Sources */,
+				27AD221721AC4DD300C86861 /* FSLoginViewController.m in Sources */,
+				2711E24921AC55A200F22E0E /* FSRegisterBottomView.m in Sources */,
+				27B365D821AAC755004A4627 /* FSProgressHUD.m in Sources */,
+				27BBC13A21A95D8600124EDE /* UIColor+Extension.m in Sources */,
+				279AC0DA21B55BED004E226A /* FSProductCollectController.m in Sources */,
+				27620DBD21C625740034D280 /* BasicCommonUtils.m in Sources */,
+				27B365D021AAC643004A4627 /* FSBaseBrowserViewController.m in Sources */,
+				2762E90221AAE92D001BD218 /* FSHomeSubClass.m in Sources */,
+				2748F65C21AEB46400B72655 /* FSWaitingOrderViewController.m in Sources */,
+				27AF050721B0458800962B3B /* FSStoreDetailBaseController.m in Sources */,
+				27BA9D9921A838A100F3A248 /* FSBaseConfigViewController.m in Sources */,
+				2748F66621AEE1B500B72655 /* FSShopCartList.m in Sources */,
+				27AD220821AC3AF800C86861 /* FSOptionDetailViewController.m in Sources */,
+				2762E90C21AAEBF6001BD218 /* FSSectionHeaderView.m in Sources */,
+				2754134321B02E1F0020C158 /* FSStoreTableViewCell.m in Sources */,
+				27AD221A21AC4E5D00C86861 /* FSLogRegistConfig.m in Sources */,
+				27F2DF3F21AD63EC00FF6803 /* FSHttpResult.m in Sources */,
+				27B365DA21AAC755004A4627 /* FSCacheManager.m in Sources */,
+				2748F65821AEACA600B72655 /* FSPhotoString.m in Sources */,
+				27E22D5E21AD981300B35A65 /* FSClassifyRoot.m in Sources */,
+				2734D88F21B5272D00B2E9E9 /* FSStoreContactCell.m in Sources */,
+				2747492621AF04E300574C35 /* FSMeInfoTableViewCell.m in Sources */,
+				2701D09021B1A4C900294A0D /* FSStoreProductController.m in Sources */,
+				279AC0DF21B560CC004E226A /* FSAddressManagerController.m in Sources */,
+				27B08E3D21B2CC3900CCE3B7 /* FSRegisterViewController.m in Sources */,
+				27E22D6821AD994800B35A65 /* FSClassifyColectCell.m in Sources */,
+				2748F65521AEAC6900B72655 /* FSProductClass.m in Sources */,
+				2775FE7B21AFD0F700867242 /* FSSettingsTableViewCell.m in Sources */,
+				27EF72C321ABC21B0003DE81 /* FSPartnerTableViewCell.m in Sources */,
+				2701D09321B1A50F00294A0D /* FSStoreContactController.m in Sources */,
+				27BA9D5221A8213200F3A248 /* main.m in Sources */,
+				27302D0521AC166E004BFD7F /* FSNewOptionBaseController.m in Sources */,
+				27BBC14021A99E9F00124EDE /* FSClassifyViewController.m in Sources */,
+				27302D0D21AC1C96004BFD7F /* FSNewOptionClass.m in Sources */,
+				271DABD021AE9E260034FED0 /* FSProductDetailViewController.m in Sources */,
+				27E22D7321ADA67400B35A65 /* FSClassifyProductCell.m in Sources */,
+				27BBC13721A95D8600124EDE /* UIButton+Extend.m in Sources */,
+				27E0057021B0374E005FFDC4 /* FSStoreProductCell.m in Sources */,
+				27EF72C621ABC49F0003DE81 /* FSPartnerCollectCell.m in Sources */,
+				27302D1021AC1F99004BFD7F /* NSObject+Additions.m in Sources */,
+				27D1039021AC516B00B83516 /* FSLogInRegisterCell.m in Sources */,
+				27C2327121B81E7600509BCB /* FSAboutMeViewController.m in Sources */,
+				27AD220C21AC452F00C86861 /* FSCommentBaseController.m in Sources */,
+				27B0022A21B553410003C3DC /* FSStoreCollectCell.m in Sources */,
+				2748F66221AEC67D00B72655 /* FSMeShoppingCartController.m in Sources */,
+				274D284621B9407B00E5F544 /* FSAddressAddViewController.m in Sources */,
+				27302CFE21ABE612004BFD7F /* FSOptionTableViewCell.m in Sources */,
+				27BA9D9C21A83A9400F3A248 /* FSNavDisplayViewController.m in Sources */,
+				27AD221021AC45AD00C86861 /* FSCommentTableViewCell.m in Sources */,
+				27620DBE21C625740034D280 /* GTMBase64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BA9D5321A8213200F3A248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BA9D5C21A8213200F3A248 /* FSFurnitureStoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BA9D5E21A8213200F3A248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BA9D6721A8213200F3A248 /* FSFurnitureStoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27BA9D5921A8213200F3A248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27BA9D3E21A8213100F3A248 /* FSFurnitureStore */;
+			targetProxy = 27BA9D5821A8213200F3A248 /* PBXContainerItemProxy */;
+		};
+		27BA9D6421A8213200F3A248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27BA9D3E21A8213100F3A248 /* FSFurnitureStore */;
+			targetProxy = 27BA9D6321A8213200F3A248 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		279DD42621BA905B003009AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279DD42521BA905B003009AF /* en */,
+				279DD42721BA9064003009AF /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27BA9D6921A8213200F3A248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27BA9D6A21A8213200F3A248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27BA9D6C21A8213200F3A248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECAEBFD71FD3D63775A1806 /* Pods-FSFurnitureStore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = FSFurnitureStore/FSFurnitureStore.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FSFurnitureStore/FSConfiguration.pch;
+				INFOPLIST_FILE = FSFurnitureStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leyigou2018.store;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		27BA9D6D21A8213200F3A248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35768D7C0944279C8B9D9B50 /* Pods-FSFurnitureStore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = FSFurnitureStore/FSFurnitureStore.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FSFurnitureStore/FSConfiguration.pch;
+				INFOPLIST_FILE = FSFurnitureStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leyigou2018.store;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		27BA9D6F21A8213200F3A248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FSFurnitureStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.furnitureStore.best2018.FSFurnitureStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSFurnitureStore.app/FSFurnitureStore";
+			};
+			name = Debug;
+		};
+		27BA9D7021A8213200F3A248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FSFurnitureStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.furnitureStore.best2018.FSFurnitureStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSFurnitureStore.app/FSFurnitureStore";
+			};
+			name = Release;
+		};
+		27BA9D7221A8213200F3A248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FSFurnitureStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.furnitureStore.best2018.FSFurnitureStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FSFurnitureStore;
+			};
+			name = Debug;
+		};
+		27BA9D7321A8213200F3A248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FSFurnitureStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.furnitureStore.best2018.FSFurnitureStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FSFurnitureStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27BA9D3A21A8213100F3A248 /* Build configuration list for PBXProject "FSFurnitureStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BA9D6921A8213200F3A248 /* Debug */,
+				27BA9D6A21A8213200F3A248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BA9D6B21A8213200F3A248 /* Build configuration list for PBXNativeTarget "FSFurnitureStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BA9D6C21A8213200F3A248 /* Debug */,
+				27BA9D6D21A8213200F3A248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BA9D6E21A8213200F3A248 /* Build configuration list for PBXNativeTarget "FSFurnitureStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BA9D6F21A8213200F3A248 /* Debug */,
+				27BA9D7021A8213200F3A248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BA9D7121A8213200F3A248 /* Build configuration list for PBXNativeTarget "FSFurnitureStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BA9D7221A8213200F3A248 /* Debug */,
+				27BA9D7321A8213200F3A248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27BA9D3721A8213100F3A248 /* Project object */;
+}

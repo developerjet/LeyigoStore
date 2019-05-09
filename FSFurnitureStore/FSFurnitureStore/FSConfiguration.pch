@@ -1,0 +1,83 @@
+//
+//  FSConfiguration.pch
+//  FSFurnitureStore
+//
+//  Created by CODER_TJ on 2018/11/23.
+//  Copyright © 2018 FTS. All rights reserved.
+//
+
+#ifndef FSConfiguration_pch
+#define FSConfiguration_pch
+
+#import "FSCurrencyHeader.h"
+
+#define kAppDelegate   ((FSAppDelegate *)([UIApplication sharedApplication].delegate))
+
+//MARK: - weak self
+#define WeakSelf   __weak typeof(self) weakSelf = self
+
+//MARK: - UIScreen
+#define SCREEN_SIZE     [UIScreen mainScreen].bounds.size
+#define SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
+
+//MARK: - iPhone适配
+#define iPhone4  (SCREEN_HEIGHT == 480)
+#define iPhone5  (SCREEN_HEIGHT == 568)
+#define iPhone6  (SCREEN_HEIGHT == 667)
+#define iPhone6P (SCREEN_HEIGHT == 736)
+
+//MARK: - iPhoneX && iPhoneXs适配
+#define iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+//MARK: - UIColor
+#define kRgbValue(rgbValue) [[UIColor alloc] initWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define kColorRGB(r, g, b)  [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+
+
+//MARK: - NSUserDefaults
+#define UD [NSUserDefaults standardUserDefaults]
+#define UD_USER_TOKEN  @"UD_USER_TOKEN"
+
+#define UD_USER_ACCOUNT   @"UD_USER_ACCOUNT"
+#define UD_USER_PASSWORD  @"UD_USER_PASSWORD"
+
+//MARK: - NSNotificationCenter
+#define NC  [NSNotificationCenter defaultCenter]
+/// 登录成功
+#define NC_LOGIN_SUCCESS  @"NC_LOGIN_SUCCESS"
+/// 退出成功
+#define NC_LOGOUT_SUCCESS  @"NC_LOGOUT_SUCCESS"
+/// 店铺详情
+#define NC_STORE_INFO  @"NC_STORE_INFO"
+/// 添加地址
+#define NC_ADD_ADDRESS  @"NC_ADD_ADDRESS"
+
+//MARK: - UIImage
+#define IMG_NAME(name)   [UIImage imageNamed:name]
+
+//MARK: - keyWindow
+#define kCurrentWindow  [UIApplication sharedApplication].keyWindow
+
+//MARK: - 导航栏高度
+#define kNavHeight  [kCurrentWindow yx_navigationHeight]
+
+//MARK: - 底部栏高度
+#define kTabBarHeight [kCurrentWindow yx_tabbarHeight]
+
+//MARK: - app当前版本号
+#define kBundleVersion  [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
+
+//MARK: - app当前名称
+#define kBundleCurName [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"]
+
+//MARK: - 调试打印
+#ifndef __OPTIMIZE__
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...){}
+#endif
+
+
+#endif /* FSConfiguration_pch */

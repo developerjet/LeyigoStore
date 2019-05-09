@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FSAboutMeViewController">
+            <connections>
+                <outlet property="logoSubView" destination="wIm-JX-cRp" id="rGk-W3-LMX"/>
+                <outlet property="versionLab" destination="bfN-0F-pvc" id="hqe-Ua-ZgE"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_app_logo" translatesAutoresizingMaskIntoConstraints="NO" id="wIm-JX-cRp">
+                    <rect key="frame" x="152.5" y="100" width="70" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="wIm-JX-cRp" secondAttribute="height" multiplier="1:1" id="CZG-ud-CrO"/>
+                        <constraint firstAttribute="width" constant="70" id="bBv-uw-Iva"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="version 1.0.1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfN-0F-pvc">
+                    <rect key="frame" x="146" y="180" width="83" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.93333333330000001" green="0.78823529410000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cs7-aN-KLE">
+                    <rect key="frame" x="15" y="228" width="345" height="382"/>
+                    <mutableString key="text">The Leyigo Store Mall client is a mobile client based on the mobile Internet platform. On this platform, users can learn the latest information and interactive service information of the home health care service, and can provide providers, industry channels, and industry. Interactive exchange of information between customers and end users. The home health care network client smoothly expands and expands the existing business platform, creates a perfect and diversified service experience for customers and businesses, and also interacts with customers in a timely manner. The cooperative members can also display their own business opportunities through supply and demand. Featured services, expand mobile marketing channels, and seize mobile Internet business opportunities anytime, anywhere.
+
+Let's start a good home life.</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.098039215686274508" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="bfN-0F-pvc" firstAttribute="centerX" secondItem="wIm-JX-cRp" secondAttribute="centerX" id="CTP-q3-Zsk"/>
+                <constraint firstItem="cs7-aN-KLE" firstAttribute="top" secondItem="bfN-0F-pvc" secondAttribute="bottom" constant="30" id="Ft7-dx-wQR"/>
+                <constraint firstItem="wIm-JX-cRp" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="80" id="GKi-0c-cFh"/>
+                <constraint firstItem="cs7-aN-KLE" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="15" id="JLq-KB-hvn"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="cs7-aN-KLE" secondAttribute="trailing" constant="15" id="elR-QS-8iH"/>
+                <constraint firstItem="bfN-0F-pvc" firstAttribute="top" secondItem="wIm-JX-cRp" secondAttribute="bottom" constant="10" id="iDr-Pv-HNb"/>
+                <constraint firstItem="wIm-JX-cRp" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="ksa-F1-2bJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_app_logo" width="60" height="60"/>
+    </resources>
+</document>
