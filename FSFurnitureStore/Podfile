@@ -19,6 +19,8 @@ target 'FSFurnitureStore' do
 	pod 'Masonry', '~> 1.1.0'
 	pod 'LEEAlert', '~> 1.2.1'
 	pod 'JPush'
+	pod 'LookinServer', :configurations => ['Debug']
+
     
     # U-Share SDK UI模块（分享面板，建议添加）
     pod 'UMCShare/UI'

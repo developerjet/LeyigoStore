@@ -32,12 +32,12 @@
     UITabBarItem *item = [UITabBarItem appearance];
     
     NSMutableDictionary *normalAttribute = [NSMutableDictionary dictionary];
-    normalAttribute[NSFontAttributeName] = [UIFont systemFontOfSize:10];
-    normalAttribute[NSForegroundColorAttributeName] = [UIColor colorWithHexString:@"D8D8D8"];
+    normalAttribute[NSFontAttributeName] = [UIFont fontWithName:@"PingFangSC-Semibold" size:11];
+    normalAttribute[NSForegroundColorAttributeName] = [UIColor colorWithHexString:@"A9A9A9"];
     [item setTitleTextAttributes:normalAttribute forState:UIControlStateNormal];
     
     NSMutableDictionary *selectedAttribute = [NSMutableDictionary dictionary];
-    selectedAttribute[NSFontAttributeName] = [UIFont systemFontOfSize:11];
+    selectedAttribute[NSFontAttributeName] = [UIFont fontWithName:@"PingFangSC-Semibold" size:11];
     selectedAttribute[NSForegroundColorAttributeName] = [UIColor colorThemeColor];
     [item setTitleTextAttributes:selectedAttribute forState:UIControlStateSelected];
     
